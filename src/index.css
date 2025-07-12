@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+/* In your CSS or Tailwind configuration */
+.from-red {
+  
+    --tw-gradient-from: #ff0000;
+  }
+  
+  .to-blue {
+    --tw-gradient-to: #0000ff;
+  }
+  
+  .gradient-fill {
+    fill: url(#gradient);
+  }
+  
+/* SwiperCarousel.css */
+.swiper-container {
+  position: relative;
+}
+
+.swiper-slide {
+  position: relative;
+  height: 100%;
+}
+
+.swiper-slide .bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .text-white {
+  color: white;
+}
+
+.swiper-slide .text-blue-400 {
+  color: #60a5fa;
+}
+
+@media (min-width: 768px) {
+  .swiper-slide .text-2xl {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .swiper-slide .text-2xl {
+    font-size: 2rem;
+  }
+}
+
